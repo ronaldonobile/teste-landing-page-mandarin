@@ -1,6 +1,6 @@
 .container {
     display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
     width: 601px;
     padding: 10px;
 }
@@ -8,7 +8,8 @@
 ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0%;
 }
 
 h1 {
@@ -26,7 +27,6 @@ small {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     color: #b2b2b2;
-
 }
 
 h2 {
@@ -34,7 +34,7 @@ h2 {
     font-size: 1em;
 }
 
-footer small{
+footer small {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 0.6em;
@@ -43,12 +43,23 @@ footer small{
     display: block;
 }
 
-#whatsapp {
+.list-item {
     width: 269px;
-    
-    
 }
 
-#kobe {
-    margin-right: 110px;
+#whatsapp {
+    width: 269px;
+}
+
+main {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.featured-image {
+    width: 100%;
+}
+
+a {
+    color: #646869;
 }
